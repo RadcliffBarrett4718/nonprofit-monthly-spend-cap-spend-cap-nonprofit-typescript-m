@@ -1,0 +1,13 @@
+{
+  "name": "nonprofit-spend-cap-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/spend_cap_service.ts",
+    "test": "node --experimental-strip-types src/spend_cap.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "openai": "^4.104.0", "zod": "^3.25.0" },
+  "devDependencies": { "typescript": "^5.8.0", "@types/node": "^22.0.0" }
+}
